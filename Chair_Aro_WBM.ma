@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: Chair_Aro_WBM.ma
-//Last modified: Tue, Aug 29, 2023 04:04:04 PM
+//Last modified: Tue, Aug 29, 2023 04:20:02 PM
 //Codeset: 1252
 requires maya "2024";
 requires "stereoCamera" "10.0";
@@ -11,12 +11,12 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202304191415-7fa20164c6";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 19045)";
-fileInfo "UUID" "33B4BF14-48DA-2B8B-A563-76A0A0AE6D0A";
+fileInfo "UUID" "DF6802CB-4841-237E-17BB-E893731E8020";
 createNode transform -s -n "persp";
 	rename -uid "5FE7BB81-46C6-E518-CA55-0F8AAE867273";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -13.895279649071034 6.8128054760277097 -6.8593824843834224 ;
-	setAttr ".r" -type "double3" -15.938352729587512 241.79999999996389 0 ;
+	setAttr ".t" -type "double3" -9.0193193948130741 8.4527209365663865 -11.667822963091314 ;
+	setAttr ".r" -type "double3" -21.938352729435898 936.59999999998331 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "65B1BEF5-414F-7647-4714-058E987A5768";
 	setAttr -k off ".v" no;

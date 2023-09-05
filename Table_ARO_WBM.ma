@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: Table_ARO_WBM.ma
-//Last modified: Thu, Aug 31, 2023 07:36:29 PM
+//Last modified: Thu, Aug 31, 2023 07:44:41 PM
 //Codeset: 1252
 requires maya "2024";
 requires "stereoCamera" "10.0";
@@ -11,12 +11,12 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202304191415-7fa20164c6";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 19045)";
-fileInfo "UUID" "C9A2DC20-4192-83FA-D3A2-9A98FCC001AC";
+fileInfo "UUID" "BE2E072C-45E7-4B05-5661-D291A233201D";
 createNode transform -s -n "persp";
 	rename -uid "25568840-41B0-9675-5358-84AAC3AEA881";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -28.031096507444893 11.127548511201867 22.265308753531446 ;
-	setAttr ".r" -type "double3" 709.19999999998345 3186.3999999987809 1.3399281491353055e-15 ;
+	setAttr ".t" -type "double3" 24.779045943910987 7.0557590138234492 31.378532329604177 ;
+	setAttr ".r" -type "double3" 718.79999999984818 4718.3999999992784 6.3412762264146847e-17 ;
 	setAttr ".rpt" -type "double3" -3.4042840333142207e-14 1.0141814969750622e-13 -6.5604519729091707e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "A23843EF-4B4E-1CDE-4CB7-27AEE9BBCE77";
